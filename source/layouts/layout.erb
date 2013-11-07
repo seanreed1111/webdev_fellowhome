@@ -36,12 +36,12 @@
             var n = students.length;
 
             setInterval(function() {
-                $(".students").find(".student").css('background-color', 'grey');
-                $(".students").find(".student:eq(" + (index%n) + ")").css('background-color', 'black');
-                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+1)) + ")").css('background-color', 'black');
-                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+10)) + ")").css('background-color', 'black');
-                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+5)) + ")").css('background-color', 'black');
-                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+2)) + ")").css('background-color', 'black');
+                $(".students").find(".student").find(".face").css('background-color', 'grey');
+                $(".students").find(".student:eq(" + (index%n) + ")").find(".face").css('background-color', 'black');
+                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+1)) + ")").find(".face").css('background-color', 'black');
+                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+10)) + ")").find(".face").css('background-color', 'black');
+                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+5)) + ")").find(".face").css('background-color', 'black');
+                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+2)) + ")").find(".face").css('background-color', 'black');
                     index++
                     console.log(n);
                     }, 50000/n)
