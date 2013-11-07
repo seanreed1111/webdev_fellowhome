@@ -15,15 +15,3 @@ season: Winter 2013
     - data.students.each do |student|
       = partial "partials/student", :locals=>{:student=>student}
 
-:javascript
-  $(document).ready(function() {
-    var index = 0;
-    var students = $(".students").find(".student");
-    var n = students.length;
-
-    setInterval(function() {
-      $(".students").find(".student").css('color', 'grey');
-      $(".students").find(".student:eq(" + (index%n) + ")").css('color', 'white');
-      index++
-      }, 5000/n)
-    });

@@ -85,6 +85,7 @@ h2 {
    height: 100%;
    color: white;
    text-align: center;
+   background-image: url(/img/nikki.png);
 }
 
 .front {
@@ -96,7 +97,6 @@ h2 {
    -moz-transform: rotateY(180deg);
    -ms-transform: rotateY(180deg);
    -o-transform: rotateY(180deg);
-   background: $blue; 
 }
 
 .card-container:hover .front {
