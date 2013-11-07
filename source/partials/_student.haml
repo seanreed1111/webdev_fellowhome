@@ -1,12 +1,16 @@
 %li.student
-  %h2 #{student.name}
-  - if student.social
-    %ul 
-      - student.social.each do |service|
-        %li
-          - if service.keys[0] ==  "twitter"
-            = partial "partials/twitter", :locals=>{:service=>service}
-          - elsif service.keys[0] ==  "github" 
-            = partial "partials/github", :locals=>{:service=>service}
-          - elsif service.keys[0] ==  "blog" 
-            = partial "partials/blog", :locals=>{:service=>service} 
+  .card-container
+    .card
+      .face.front
+        %h3 #{student.name}
+      .face.back
+        - if student.social
+          %ul.social
+            - student.social.each do |service|
+              %li
+                - if service.keys[0] ==  "twitter"
+                  = partial "partials/twitter", :locals=>{:service=>service}
+                - elsif service.keys[0] ==  "github" 
+                  = partial "partials/github", :locals=>{:service=>service}
+                - elsif service.keys[0] ==  "blog" 
+                  = partial "partials/blog", :locals=>{:service=>service} 

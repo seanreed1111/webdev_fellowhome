@@ -7,27 +7,48 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <!-- Use title if it's in the page YAML frontmatter -->
-        <title><%= current_page.data.title || "HTML5 Boilerplate" %></title>
+        <title><%= current_page.data.title || "NYC Web Development Fellowship" %></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+        <%= stylesheet_link_tag "normalize" %>
+        <%= stylesheet_link_tag "main" %>
+        <%= stylesheet_link_tag "custom" %>
+        <%= javascript_include_tag "vendor/modernizr-2.6.1.min" %>
+        <!--[if lt IE 9]>
+            <script src="html5shiv.js"></script>
+        <![endif]-->
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
+        <div class="container">
+            <%= yield %>
+        </div>
 
-        <%= yield %>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <%= javascript_include_tag "//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" %>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+        <script>
+          $(document).ready(function() {
+            var index = 0;
+            var students = $(".students").find(".student");
+            var n = students.length;
+
+            setInterval(function() {
+                $(".students").find(".student").css('background-color', 'grey');
+                $(".students").find(".student:eq(" + (index%n) + ")").css('background-color', 'black');
+                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+1)) + ")").css('background-color', 'black');
+                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+10)) + ")").css('background-color', 'black');
+                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+5)) + ")").css('background-color', 'black');
+                $(".students").find(".student:eq(" + (index%n+Math.floor((Math.random()*10)+2)) + ")").css('background-color', 'black');
+                    index++
+                    console.log(n);
+                    }, 50000/n)
+                });
+        </script>
+        <%= javascript_include_tag "js/plugins" %>
+        <%= javascript_include_tag "js/main" %>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
