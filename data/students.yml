@@ -1,4 +1,5 @@
 - name: Amine Tourki
+  image: amine.png
   social: 
     - twitter: aminethedream
     - github: aminethedream
@@ -75,6 +76,7 @@
     - github: cornerstonian
     - blog: http://breuklenboy.tumblr.com
 - name: Nikki Thean
+  image: nikki.png
   social: 
     - github: nixsticks
     - blog: http://nikkicodes.tumblr.com/

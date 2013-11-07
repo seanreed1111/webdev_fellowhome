@@ -1,7 +1,7 @@
 %li.student
   .card-container
     .card
-      .face.front
+      .face.front{:style=>"background: url('./img/#{student.image}')"}
         %h3 #{student.name}
       .face.back
         - if student.social
