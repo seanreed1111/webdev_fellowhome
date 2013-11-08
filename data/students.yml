@@ -117,14 +117,15 @@
   social: 
     - twitter: JONBRWN_
     - github: jonbrwn
+- name: Lavoisier Cornerstone
+  image: vois.png
+  social: 
+    - github: cornerstonian
+    - blog: http://breuklenboy.tumblr.com
 - name: Sterling Walker
   social: 
     - github: mrsnickers
     - blog: http://github.com/MrSnickers/Blog
-- name: Lavoisier Cornerstone
-  social: 
-    - github: cornerstonian
-    - blog: http://breuklenboy.tumblr.com
 - name: Hannah Nordgren
   social: 
     - twitter: nordgrenator
