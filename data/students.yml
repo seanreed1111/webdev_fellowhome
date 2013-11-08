@@ -25,6 +25,7 @@
 - name: David Gabeau
   social: 
 - name: Derek Silverman
+  image: derek.png
   social: 
     - twitter: dereksilverman
     - github: dereksilverman
@@ -35,6 +36,7 @@
     - github: fdogarro
     - blog: http://fullimmersion.me/
 - name: Gustavo Guimaraes
+  image: gustavo.png
   social: 
     - github: gustavoguimaraes
     - blog: http://gustavocguimaraes.wordpress.com/
@@ -120,6 +122,7 @@
     - github: mrsnickers
     - blog: http://github.com/MrSnickers/Blog
 - name: Tessa Fallon
+  image: tessa.png
   social: 
     - github: tessafallon
 - name: Uzo Ukeagu
