@@ -13,11 +13,13 @@
     - github: ajosepha
     - blog: http://ajosepha.tumblr.com/
 - name: Armando Amador
+  image: armando.png
   social: 
     - twitter: mando_amador 
     - github: ArmandoAmador
 - name: Chris Haack
   social: 
+    - github: chyrus
     - twitter: superxtanza
     - blog: http://chryus.wordpress.com/
 - name: David Gabeau
@@ -47,6 +49,7 @@
     - github:  JahmilE
     - blog: http://codejanecode.tumblr.com/
 - name: Jeremy Lewis
+  image: jeremy.png
   social: 
     - twitter: LewisJPaul
     - github: Lewisjp
@@ -63,6 +66,7 @@
   social: 
     - github: kthffmn
 - name: 'Keith Williams, Jr.'
+  image: keith.png
   social: 
     - twitter: Kphillycat
     - github: kphillycat
@@ -81,6 +85,7 @@
     - github: nixsticks
     - blog: http://nikkicodes.tumblr.com/
 - name: Nisha Batra
+  image: nisha.png
   social: 
     - twitter: nishacodes
     - github: nishacodes
@@ -97,12 +102,12 @@
   social: 
     - twitter: opheliadaisies
     - github: opheliadaisies
-    - blog: mykindofgeek.com
+    - blog: http://www.mykindofgeek.com
 - name: Sarah Ransohoff
   social: 
     - twitter: sranso
     - github: sranso
-    - blog: www.sarahunderstandsverylittle.tumblr.com
+    - blog: http://www.sarahunderstandsverylittle.tumblr.com
 - name: Sean Reed
   social: 
     - twitter: kittykaraoke
@@ -116,3 +121,4 @@
   social: 
     - github: tessafallon
 - name: Uzo Ukeagu
+  social:
