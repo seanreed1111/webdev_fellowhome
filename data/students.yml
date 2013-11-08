@@ -112,6 +112,11 @@
   social: 
     - github: poojawins
     - twitter: poojawins
+- name: Jonathan Brown
+  image: johnathan.png
+  social: 
+    - twitter: JONBRWN_
+    - github: jonbrwn
 - name: Sterling Walker
   social: 
     - github: mrsnickers
@@ -125,10 +130,6 @@
     - twitter: nordgrenator
     - github: ninjaofawesome
     - blog: http://anunorderedlistapart.tumblr.com/
-- name: Jonathan Brown
-  social: 
-    - twitter: JONBRWN_
-    - github: jonbrwn
 - name: Chris Haack
   social: 
     - github: chyrus
