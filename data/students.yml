@@ -8,6 +8,7 @@
     - github: anisharamnani
     - blog: http://blurredcommandlines.tumblr.com/
 - name: Ariel Isaacs
+  image: ariel.png
   social: 
     - twitter: arielisaacs
     - github: ajosepha
@@ -93,6 +94,7 @@
     - github: nishacodes
     - blog: http://nishacodes.tumblr.com
 - name: Oliver Switzer
+  image: oliver.png
   social: 
     - twitter: oliverswitzer
     - blog: http://allyourcodesarebelongtous.tumblr.com/
@@ -127,4 +129,5 @@
   social: 
     - github: tessafallon
 - name: Uzo Ukeagu
+  image: uzo.png
   social:
