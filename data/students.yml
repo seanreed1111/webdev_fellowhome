@@ -19,11 +19,6 @@
   social: 
     - twitter: mando_amador 
     - github: ArmandoAmador
-- name: Chris Haack
-  social: 
-    - github: chyrus
-    - twitter: superxtanza
-    - blog: http://chryus.wordpress.com/
 - name: David Gabeau
   image: david.png
   social: 
@@ -33,21 +28,11 @@
     - twitter: dereksilverman
     - github: dereksilverman
     - blog: http://sleepydinosuar.tumblr.com/
-- name: Felicia O'Garro
-  social: 
-    - twitter: feliciaogarro
-    - github: fdogarro
-    - blog: http://fullimmersion.me/
 - name: Gustavo Guimaraes
   image: gustavo.png
   social: 
     - github: gustavoguimaraes
     - blog: http://gustavocguimaraes.wordpress.com/
-- name: Hannah Nordgren
-  social: 
-    - twitter: nordgrenator
-    - github: ninjaofawesome
-    - blog: http://anunorderedlistapart.tumblr.com/
 - name: Jahmil Eady
   image: jahmil.png
   social: 
@@ -60,10 +45,6 @@
     - twitter: LewisJPaul
     - github: Lewisjp
     - blog: http://lewisjp.blog.com/
-- name: Jonathan Brown
-  social: 
-    - twitter: JONBRWN_
-    - github: jonbrwn
 - name: Kate Donahue
   image: kate.png
   social: 
@@ -85,10 +66,6 @@
   social: 
     - twitter: keturahwalters
     - github: ketwalters
-- name: Lavoisier Cornerstone
-  social: 
-    - github: cornerstonian
-    - blog: http://breuklenboy.tumblr.com
 - name: Nikki Thean
   image: nikki.png
   social: 
@@ -105,10 +82,6 @@
   social: 
     - twitter: oliverswitzer
     - blog: http://allyourcodesarebelongtous.tumblr.com/
-- name: Pooja Pasawala
-  social: 
-    - github: poojawins
-    - twitter: poojawins
 - name: Sara Gorecki
   image: sara.png
   social: 
@@ -127,10 +100,6 @@
     - twitter: kittykaraoke
     - github: seanreed1111
     - blog: http://bit.ly/flatironblog
-- name: Sterling Walker
-  social: 
-    - github: mrsnickers
-    - blog: http://github.com/MrSnickers/Blog
 - name: Tessa Fallon
   image: tessa.png
   social: 
@@ -138,3 +107,35 @@
 - name: Uzo Ukeagu
   image: uzo.png
   social:
+- name: Pooja Pasawala
+  image: pooja.png
+  social: 
+    - github: poojawins
+    - twitter: poojawins
+- name: Sterling Walker
+  social: 
+    - github: mrsnickers
+    - blog: http://github.com/MrSnickers/Blog
+- name: Lavoisier Cornerstone
+  social: 
+    - github: cornerstonian
+    - blog: http://breuklenboy.tumblr.com
+- name: Hannah Nordgren
+  social: 
+    - twitter: nordgrenator
+    - github: ninjaofawesome
+    - blog: http://anunorderedlistapart.tumblr.com/
+- name: Jonathan Brown
+  social: 
+    - twitter: JONBRWN_
+    - github: jonbrwn
+- name: Chris Haack
+  social: 
+    - github: chyrus
+    - twitter: superxtanza
+    - blog: http://chryus.wordpress.com/
+- name: Felicia O'Garro
+  social: 
+    - twitter: feliciaogarro
+    - github: fdogarro
+    - blog: http://fullimmersion.me/
