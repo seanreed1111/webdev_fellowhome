@@ -25,6 +25,7 @@
     - twitter: superxtanza
     - blog: http://chryus.wordpress.com/
 - name: David Gabeau
+  image: david.png
   social: 
 - name: Derek Silverman
   image: derek.png
@@ -80,6 +81,7 @@
     - github: kphillycat
     - blog: http://codewardbound.tumblr.com/
 - name: Keturah Walters
+  image: keturah.png
   social: 
     - twitter: keturahwalters
     - github: ketwalters
