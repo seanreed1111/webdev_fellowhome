@@ -107,6 +107,9 @@
 - name: Uzo Ukeagu
   image: uzo.png
   social:
+    - github: MsUzoAgu
+    - twitter: MsUzoAgu
+    - blog: http://uzoagu.com
 - name: Pooja Pasawala
   image: pooja.png
   social: 
